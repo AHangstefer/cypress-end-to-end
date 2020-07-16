@@ -149,7 +149,7 @@ export default function Form() {
       </label>
       {/* displaying our post request data */}
       <pre>{JSON.stringify(post, null, 2)}</pre>
-      <button disabled={buttonDisabled}>Submit</button>
+      <button id="submit" disabled={buttonDisabled}>Submit</button>
     </form>
   );
 }
