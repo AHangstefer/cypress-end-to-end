@@ -9,7 +9,7 @@ describe('form test', ()=>{
         .type('Anna Davis')
         .should('have.value', 'Anna Davis')
 
-        const email= 'annalikesherself@gmail.com';
+        //const email= 'annalikesherself@gmail.com';
         cy.get('[for="email"]> input')
         .type(email)
         .should('have.value', email)
@@ -30,5 +30,7 @@ describe('form test', ()=>{
         cy.get('button#submit')
         .should('be.disabled')
     })
+
+    it()
     
 })
